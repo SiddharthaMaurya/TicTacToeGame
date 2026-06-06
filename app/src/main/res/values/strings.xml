@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TicTacToeGame</string>
+    <string name="rematch">New Game</string>
+    <string name="fill"> </string>
+    <string name="result">Result</string>
+    <string name="tic_tac_toe">TIC TAC TOE</string>
+    <string name="winner">Winner is: </string>
+    <string name="play">PLAY</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="tic_ntac_ntoe">TIC\nTAC\nTOE</string>
+</resources>

@@ -22,19 +22,6 @@ A simple and interactive **Tic Tac Toe game for Android** built using **Java and
 - XML (UI Design)
 - Android Studio
 
----
-
-## 📸 Screenshots
-
-(Add your app screenshots here)
-
-Example:
-- Main Game Screen
-- Winner Screen
-- Draw Screen
-
----
-
 ## ⚙️ How It Works
 
 1. Players take turns marking X and O.

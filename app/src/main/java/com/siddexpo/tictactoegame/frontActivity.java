@@ -3,6 +3,8 @@ package com.siddexpo.tictactoegame;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -10,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.vectordrawable.graphics.drawable.AnimationUtilsCompat;
 
 public class frontActivity extends AppCompatActivity {
 
@@ -31,6 +34,9 @@ public class frontActivity extends AppCompatActivity {
                 startActivity(play);
             }
         });
+
+        Animation pulse = AnimationUtils.loadAnimation(this,R.anim.pulse);
+        btnFront.setAnimation(pulse);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

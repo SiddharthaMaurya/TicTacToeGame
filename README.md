@@ -5,7 +5,7 @@ A simple and interactive **Tic Tac Toe game for Android** built using **Java and
 ---
 
 ## 📱 Features
-
+- Added a animated loading screen
 - 🎮 Two-player gameplay (X and O)
 - 🏆 Winner detection (all rows, columns, diagonals)
 - 🤝 Draw condition handling
@@ -34,3 +34,6 @@ A simple and interactive **Tic Tac Toe game for Android** built using **Java and
 4. If all cells are filled:
    - The game ends in a draw screen.
 5. Game can be restarted after result.
+
+## Author
+Siddhartha Maurya

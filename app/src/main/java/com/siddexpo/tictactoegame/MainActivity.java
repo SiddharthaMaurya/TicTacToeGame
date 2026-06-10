@@ -141,6 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showDraw(){
         Intent intent = new Intent(MainActivity.this, winnerActivity.class);
-        intent.putExtra("winner","Match Draw!");
+        intent.putExtra("winner","#Draw");
+        startActivity(intent);
     }
 }

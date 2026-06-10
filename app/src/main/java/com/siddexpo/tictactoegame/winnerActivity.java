@@ -34,7 +34,8 @@ public class winnerActivity extends AppCompatActivity {
 
 
         String winner = getIntent().getStringExtra("winner");
-        gameResult.setText("Winner is: "+winner);
+        gameResult.setText("winner is:" + winner);
+
 
         Intent back = new Intent(winnerActivity.this,MainActivity.class);
         btnAgain.setOnClickListener(new View.OnClickListener() {
